@@ -5,6 +5,6 @@ import {
 } from "@react-router/dev/routes";
 
 export default [
-    index("routes/home.tsx"),
-    route("sample", "./routes/sample.tsx"),
+    index("./routes/Portfolio.tsx"),
+    route("info", "./routes/info.tsx"),
 ] satisfies RouteConfig;
