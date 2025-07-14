@@ -5,6 +5,7 @@ interface IPageInfo {
   name: string;
 }
 
+// TODO: need to move this into routes.ts
 const PageInfo: IPageInfo[] = [
   {
     path: "",
@@ -53,6 +54,11 @@ export function NavBar() {
                 <li>
                   <NavLink key={`nav_${info.name}`}
                     to={`/${info.path}`}
+                    className={({ isActive, isPending }) => {
+                      // TODO: 
+                      return isPending ? "bg-gray-900" : isActive ? "bg-red-200" : "bg-yellow-400"
+                    }
+                    }
                   >
                     {info.name}
                   </NavLink>

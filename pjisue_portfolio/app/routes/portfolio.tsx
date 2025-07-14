@@ -1,7 +1,7 @@
 import type { Route } from "./+types/portfolio";
 import { PortfolioPage } from "../components/portfolio-page";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Portfolio" },
     { name: "description", content: "Jisue Park's portfolio" },
