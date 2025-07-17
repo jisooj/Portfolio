@@ -1,6 +1,6 @@
 /**
  * List of projects:
- * 
+ *
  * - Tworii Furniture
  * - BrandsWalk Branding
  * - Dot Socks
@@ -8,42 +8,37 @@
  */
 
 interface IProject {
-    path: string;
-    name: string;
-    description: string;
-    image: string;
+  path: string;
+  description: string;
+  image: string;
 }
 
 export enum ProjectName {
-    TworiiFurniture = "Tworii Furniture",
-    BrandsWalkBranding = "BrandsWalk Branding",
-    DotSocks = "Dot Socks",
-    LacmaAudioGuide = "LACMA Audio Guide",
+  TworiiFurniture = "Tworii Furniture",
+  BrandsWalkBranding = "BrandsWalk Branding",
+  DotSocks = "Dot Socks",
+  LacmaAudioGuide = "LACMA Audio Guide",
 }
 
-export const Projects: IProject[] = [
-    {
-        path: "tworii-furniture",
-        name: ProjectName.TworiiFurniture,
-        description: "",
-        image: ""
-    },
-    {
-        path: "brandswalk-branding",
-        name: ProjectName.BrandsWalkBranding,
-        description: "",
-        image: ""
-    },
-    {
-        path: "dot-socks",
-        name: ProjectName.DotSocks,
-        description: "",
-        image: ""
-    },
-    {
-        path: "lacma-audio-guide",
-        name: ProjectName.LacmaAudioGuide,
-        description: "",
-        image: ""
-    },
-];
+export const ProjectInfo: Record<ProjectName, IProject> = {
+  [ProjectName.TworiiFurniture]: {
+    path: "tworii-furniture",
+    description: "Brief description of Tworii Furniture project.",
+    image: "",
+  },
+  [ProjectName.BrandsWalkBranding]: {
+    path: "brandswalk-branding",
+    description: "Brief description of BrandsWalk Branding project.",
+    image: "",
+  },
+  [ProjectName.DotSocks]: {
+    path: "dot-socks",
+    description: "Brief description of Dot Socks project.",
+    image: "",
+  },
+  [ProjectName.LacmaAudioGuide]: {
+    path: "lacma-audio-guide",
+    description: "Brief description of LACMA Audio Guide project.",
+    image: "",
+  },
+};
