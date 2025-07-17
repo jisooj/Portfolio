@@ -48,7 +48,7 @@ export function NavBar() {
                     to={`/${info.path}`}
                     className={({ isActive, isPending }) => {
                       // TODO: 
-                      return isPending ? "bg-gray-900" : isActive ? "bg-red-200" : "bg-yellow-400"
+                      return isPending ? "bg-gray-900" : isActive ? "bg-red-200" : "bg-yellow-400";
                     }
                     }
                   >

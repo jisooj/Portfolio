@@ -13,6 +13,5 @@ body {
     color-scheme: dark;
   }
 
-  font-family: Helvetica, Arial, sans-serif;
   background: radial-gradient(circle at 60% 50%, #dddddd 0%, #dddddd 30%, #cacaca 60%, #949494 100%);
 }
