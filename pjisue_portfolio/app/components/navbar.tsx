@@ -8,21 +8,13 @@ interface IPageInfo {
 // TODO: need to move this into routes.ts
 const PageInfo: IPageInfo[] = [
   {
-    path: "",
-    name: "Portfolio"
+    path: "work",
+    name: "Work"
   },
   {
-    path: "info",
-    name: "Info"
+    path: "about",
+    name: "About"
   },
-  {
-    path: "instagram",
-    name: "Instagram"
-  },
-  {
-    path: "blog",
-    name: "Blog"
-  }
 ];
 
 export function NavBar() {

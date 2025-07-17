@@ -3,6 +3,7 @@
 - Work (/work)
 - About (/about)
 - Accessibility (/a11y - this will be in v2)
+- Dedicated page for each project (/projects/:projectId)
 
 # Components
 - Tiles for each project in Home page.
