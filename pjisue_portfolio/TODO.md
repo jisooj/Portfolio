@@ -39,3 +39,29 @@ Out of scope:
 # Misc TODO
 - Favicon
 - Logo
+
+---------------------------
+# vite project setup
+
+npx create-vite
+React
+Typescript
+
+npm install
+npm run dev
+
+npm install tailwindcss @tailwindcss/vite
+
+npm install gh-pages --save-dev
+
+package.json
+<!-- "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+} -->
+
+npm run deploy
+
+Reference
+- [Vite project setup](https://www.youtube.com/watch?v=b4i8l73DU6A&list=WL&index=2&ab_channel=PedroTech)
+- [Sample portfolio project](https://github.com/lohitkolluri/Portfolio-Website)
